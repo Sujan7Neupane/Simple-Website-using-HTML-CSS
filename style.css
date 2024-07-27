@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #1b1b1b;
+  padding: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.logo-title span {
+    color: rgba(255, 0, 0, 0.641);
+}
+
+ul.nav-links {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  list-style-type: none;
+}
+
+ul.nav-links li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+}
+
+
+ul.nav-links li a:hover{
+    background-color: aliceblue;
+    color: #1b1b1b;
+    border-radius: 3px;
+}
+
+main {
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1638&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.buttons {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.buttons .btn-primary {
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.buttons .btn-primary:nth-child(1):hover {
+    background-color: aliceblue;
+    color: #1b1b1b;
+}
+
+.buttons .btn-primary:nth-child(2) {
+    background-color: aliceblue;
+    color: #1b1b1b;
+    border: 0.5px solid rgb(0, 0, 0);
+}
